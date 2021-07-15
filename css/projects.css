@@ -1,0 +1,66 @@
+@import "./reset.css";
+@import "./fonts.css";
+@import "./settings.css";
+@import "./important.css";
+
+
+.wr-projects .wrapper {
+    display: flex;
+    flex-direction: column;
+    padding-top: 92px;
+}
+
+
+.wrapper .container:nth-child(2) {
+    margin-top: 30px;
+}
+.wrapper .container:nth-child(3) {
+    margin-top: 60px;
+    margin-bottom: 60px;
+   
+}
+.wrapper .container {
+    background-color: #FBFBFB;
+    display: flex;
+    justify-content: space-between;
+}
+.wr-projects h1 {
+    width: 100%;
+    border-bottom: 1px solid #F2F2F2;
+    padding-bottom: 30px;
+    margin: 0;
+}
+
+.container .project {
+    padding-top: 30px;
+    padding-left: 30px;
+}
+.project h2 {
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 49,8px;
+    color: #BDBDBD;
+    margin: 0;
+}
+.project p {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 25px;
+    padding-top: 20px;
+    padding-right: 70px;
+    margin: 0;
+}
+.block-button {
+    padding-top: 64px;
+}
+.block-button button {
+    color: #333;
+    border: 2px solid #FFF;
+    background-color: #FFF;
+   
+}
+.indicates  {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}

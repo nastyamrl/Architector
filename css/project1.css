@@ -1,0 +1,40 @@
+@import "./reset.css";
+@import "./fonts.css";
+@import "./settings.css";
+@import "./important.css";
+
+
+.wr-project .wrapper{
+    display: flex;
+    flex-direction: column;
+    padding-top: 92px;
+}
+.wr-project h1 {
+    width: 100%;
+    border-bottom: 1px solid #F2F2F2;
+    padding-bottom: 30px;
+    margin: 0;
+}
+
+
+/*разобраться с текстом */
+
+
+.wrapper div {
+    padding-top: 30px;
+}
+.wrapper .block {
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+    height: auto;
+}
+.block p {
+    font-size: 16px;
+    line-height: 25px;
+    padding-left: 30px;
+    margin: 0;
+}
+footer {
+    padding-top: 120px;
+}

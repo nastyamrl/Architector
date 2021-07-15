@@ -1,0 +1,24 @@
+@import "./reset.css";
+@import "./fonts.css";
+@import "./settings.css";
+@import "./important.css";
+
+.wr-sert .wrapper{
+display: flex;
+flex-direction: column;
+padding-top: 92px;
+}
+.wrapper .img-block {
+    padding-top: 42px;
+}
+.img-block .img {
+    padding-left: 61px;
+}
+.indicates  {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+footer {
+    padding-top: 300px;
+}

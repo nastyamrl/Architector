@@ -1,0 +1,56 @@
+@import "./reset.css";
+@import "./fonts.css";
+@import "./settings.css";
+@import "./important.css";
+
+
+
+.wr-contact .wrapper {
+    display: flex;
+    flex-direction: row;
+    padding-top: 92px;
+}
+.wrapper .container {
+    display: flex;
+    flex-direction: column;
+}
+.container .block-geo:first-line {
+    font-family: "TT-Bold";
+    font-size: 18px;
+    font-weight: 700;
+    padding-bottom: 22px;
+}
+.container .block-geo {
+    font-size: 16px;
+    line-height: 25px;
+    white-space: pre-line;
+    padding-top: 34px;
+    margin: 0;
+}
+.container a {
+    font-family: "TT-Bold";
+    font-size: 18px;
+    line-height: 22,41px;
+    text-decoration: none;
+    color: #333;
+    padding-top: 43px;
+}
+.container .block-mail {
+    font-size: 16px;
+    line-height: 19,92px;
+    padding-top: 36px;
+}
+.block-button button {
+    letter-spacing: 3px;
+    color: #FFF;
+    border: 2px solid #333;
+    background-color: #333;
+}
+ .map iframe {
+    padding-left: 70px;
+    height: 535px;
+    width: 930px;
+}
+
+
+

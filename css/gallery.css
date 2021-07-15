@@ -1,0 +1,42 @@
+@import "./reset.css";
+@import "./fonts.css";
+@import "./settings.css";
+@import "./important.css";
+
+.wr-gallery .wrapper {
+    display: flex;
+    flex-direction: column;
+    padding-top: 92px;
+}
+.wr-gallery h1 {
+    width: 100%;
+    border-bottom: 1px solid #F2F2F2;
+    padding-bottom: 30px;
+    margin: 0;
+}
+.gallery .block {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+.block .img {
+    padding-left: 30px;
+}
+.block img:nth-child(1) {
+    padding-left: 0;
+}
+.indicates  {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 75px;
+}
+.indicates .button{
+    padding-left: 26px;
+}
+.arrow-right {
+    background-color: #F9F9F9;
+}
+footer{
+    padding-top: 400px;
+}

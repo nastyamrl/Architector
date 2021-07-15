@@ -1,0 +1,18 @@
+@font-face {
+    font-family: "SF-Regular";
+    src: url('../fonts/SFUIDisplay-Regular.woff2') format('woff2'),  
+        url('../fonts/SFUIDisplay-Regular.woff') format('woff');
+    font-display: swap;
+}
+@font-face {
+    font-family: "TT-Bold";
+    src: url('../fonts/TTHoves-Bold.woff2') format('woff2'),  
+        url('../fonts/TTHoves-Bold.woff') format('woff');
+    font-display: swap;
+}
+@font-face {
+    font-family: "TT-Regular";
+    src: url('../fonts/TTHoves-Regular.woff2') format('woff2'),  
+        url('../fonts/TTHoves-Regular.woff') format('woff');
+    font-display: swap;
+}

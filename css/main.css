@@ -1,0 +1,197 @@
+@import "./reset.css";
+@import "./fonts.css";
+@import "./settings.css";
+@import "./important.css";
+
+
+
+
+.wrapper h1 {
+    padding-top: 92px;
+}
+.wr-intro .wrapper {
+display: flex;
+justify-content: space-between;
+padding-top: 48px;
+padding-left: 15px;
+font-style: 64px;
+}
+.wr-intro .button {
+    padding-top: 160px;
+}
+.wr-intro .pages {
+    padding-top: 70px;
+}
+.pages img {
+    padding: 0 32px;
+}
+
+/*section obut company*/
+
+ .wr-about {
+    margin-top: 50px;
+    padding-top: 120px;
+ }
+ .wr-about .wrapper {
+    background-color: #FBFBFB;
+    display: flex;
+    justify-content: space-between;
+}
+.wr-about .picture-one {
+    padding-left: 100px;
+}
+.picture-one .img-one {
+    padding-top: 30px;
+}
+.picture-one .img-two {
+    padding-top: 30px;
+}
+.picture-two .img-two {
+    padding-top: 60px;
+    padding-left: 30px;
+}
+.about-us {
+    padding-top: 10px;
+    padding-bottom: 0;
+    padding-left: 30px;
+}
+.about-us h2 {
+    font-size: 64px;
+    color: #BDBDBD;
+}
+.about-us p {
+font-size: 16px;
+color: #000000;
+padding-top: 10px;
+}
+.wr-about .block-button {
+    justify-content: flex-start;
+}
+ .wr-about button {
+     color: #333;
+     border: 2px solid #FFF;
+     background-color: #FFF;
+ }
+ .wr-about .arrow {
+     padding-left: 15px;
+ }
+
+/*section tasks*/
+
+.wr-tasks .wrapper{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+.task {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-top: 60px;
+}
+.task-one {
+    display: flex;
+    flex-direction: row;
+    padding-right: 154px;
+}
+.task-two {
+        display: flex;
+    flex-direction: row;
+    padding-left: 30px;
+}
+.task-one .task-text {
+    font-size: 22px;
+    line-height: 36px;
+    width: 279px;
+    height: 144px;
+    padding-left: 30px;
+}
+.task-two .task-text {
+        font-size: 22px;
+        line-height: 36px;
+        width: 420px;
+        height: 144px;
+        padding-left: 30px;
+}
+
+    /*section product*/
+
+
+.wr-product .wrapper {
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+}
+.wrapper .block {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 60px;
+}
+.wrapper .img-block {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+.text-block {
+    background-image: url(../media/main5.png);
+    width: 570px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+}
+.text-block p {
+    font-size: 64px;
+    color: #FFF;
+    padding-top: 48px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text-block a {
+    font-size: 12px;
+    letter-spacing: 3px;
+    color: #FFF;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 80px;
+    padding-top: 14px;
+}
+.text-block .arrow {
+    padding-left: 15px;
+}
+
+
+.wr-product .block-button {
+    justify-content: flex-end;
+    padding-top: 30px;
+    
+}
+.wr-product button {
+    color: #FFF;
+    border: 2px solid #333;
+    background-color: #333;
+}
+
+
+
+/* section forms*/
+
+
+.wr-connection .wrapper {
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+}
+.wr-connection .container {
+   
+}
+.container .block {
+    display: flex;
+    justify-content: space-between;
+}
+.container .form {
+    display: flex;
+    flex-direction: column;
+}
