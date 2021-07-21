@@ -10,9 +10,15 @@
     padding-top: 92px;
 }
 
-
+.wrapper .container {
+    width: 100%;
+}
 .wrapper .container:nth-child(2) {
     margin-top: 30px;
+    position: relative;
+}
+.wrapper .container:nth-child(2) .picture {
+    object-fit: cover;
 }
 .wrapper .container:nth-child(3) {
     margin-top: 60px;
@@ -50,15 +56,15 @@
     padding-right: 70px;
     margin: 0;
 }
-.block-button {
+ .block-button {
+    justify-content: flex-start;
     padding-top: 64px;
 }
-.block-button button {
-    color: #333;
-    border: 2px solid #FFF;
-    background-color: #FFF;
-   
-}
+.block-button a{
+     color: #333;
+     border: 2px solid #fff;
+     background-color: #fff;
+ }
 .indicates  {
     display: flex;
     justify-content: flex-start;

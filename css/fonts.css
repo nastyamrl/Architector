@@ -5,7 +5,7 @@
     font-display: swap;
 }
 @font-face {
-    font-family: "TT-Bold";
+   font-family: "TT-Bold"; 
     src: url('../fonts/TTHoves-Bold.woff2') format('woff2'),  
         url('../fonts/TTHoves-Bold.woff') format('woff');
     font-display: swap;
@@ -16,3 +16,18 @@
         url('../fonts/TTHoves-Regular.woff') format('woff');
     font-display: swap;
 }
+@font-face {
+    font-family: "TT-Light";
+    src: url('../fonts/TTHoves-Light.woff2') format('woff2'),  
+        url('../fonts/TTHoves-Light.woff') format('woff');
+    font-display: swap;
+}
+@font-face {
+    font-family: "TT-Medium";
+    src: url('../fonts/TTHoves-Medium.woff2') format('woff2'),  
+        url('../fonts/TTHoves-Medium.woff') format('woff');
+    font-display: swap;
+}
+
+
+

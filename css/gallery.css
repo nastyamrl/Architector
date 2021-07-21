@@ -10,7 +10,7 @@
 }
 .wr-gallery h1 {
     width: 100%;
-    border-bottom: 1px solid #F2F2F2;
+    border-bottom: 1px solid #f2f2f2;
     padding-bottom: 30px;
     margin: 0;
 }
@@ -35,8 +35,5 @@
     padding-left: 26px;
 }
 .arrow-right {
-    background-color: #F9F9F9;
-}
-footer{
-    padding-top: 400px;
+    background-color: #f9f9f9;
 }
