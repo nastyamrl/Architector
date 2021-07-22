@@ -3,16 +3,12 @@
 @import "./settings.css";
 @import "./important.css";
 
-
-
-
-
 .wr-intro .wrapper {
-display: flex;
-justify-content: space-between;
-padding-top: 48px;
-padding-left: 15px;
-font-style: 64px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 48px;
+    padding-left: 15px;
+    font-style: 64px;
 }
 .wr-intro h1 {
     padding-top: 92px;
@@ -23,7 +19,6 @@ font-style: 64px;
 .wr-intro .pages {
     padding-top: 70px;
 }
-
 .wr-intro .img-block {
     position: relative;
 }
@@ -48,7 +43,7 @@ font-style: 64px;
     margin: auto;
 }
  .wr-about .wrapper {
-   display: flex;
+    display: flex;
     justify-content: space-between;
     margin-top: 120px;
 }
@@ -96,7 +91,7 @@ font-style: 64px;
 .wr-tasks .wrapper{
     display: flex;
     flex-direction: column;
-    margin-top: 120px;
+    margin-top: 150px;
 }
 .task {
     display: flex;
@@ -110,23 +105,22 @@ font-style: 64px;
     padding-right: 154px;
 }
 .task-two {
-        display: flex;
+    display: flex;
     flex-direction: row;
     padding-left: 30px;
 }
 .task-one .task-text {
     font-size: 22px;
     line-height: 36px;
-    width: 279px;
-    height: 144px;
+    
     padding-left: 30px;
 }
 .task-two .task-text {
-        font-size: 22px;
-        line-height: 36px;
-        width: 420px;
-        height: 144px;
-        padding-left: 30px;
+    font-size: 22px;
+    line-height: 36px;
+    width: 420px;
+    height: 144px;
+    padding-left: 30px;
 }
 
     /*section product*/
@@ -205,7 +199,6 @@ font-style: 64px;
 .shadow:hover img {
     opacity: 0.4;
 }
-
 .wr-product .block-button {
     display: flex;
     justify-content: flex-end;
@@ -318,4 +311,386 @@ font-style: 64px;
     justify-content: center;
     align-items: center;
     margin-top: 41px;
+}
+
+
+
+
+
+@media screen and (max-width:1199px) {
+    .wr-intro {
+        width: 960px;
+    }
+    .wr-intro h1 {
+        font-size: 52px;
+        margin-left: 30px;
+    }
+    .wr-intro .button {
+        margin-top: 100px;
+        margin-left: 30px;
+    }
+    .wr-intro .pages {
+        margin-left: 30px;
+    }
+    .wr-about {
+        width: 960px;
+        height: 530px;
+    }
+    .wr-about .picture-one {
+        padding-left: 50px;
+    }
+    .picture-one .img-one {
+        padding-top: 40px;
+    }
+    .picture-two .img-two {
+        padding-top: 85px;
+        padding-left: 20px;
+    }
+    .about-us h2 {
+        font-size: 52px;
+        padding-top: 20px;
+    }
+    .wr-about .block-button {
+        margin-top: 20px;
+    }
+    .wr-tasks {
+        width: 960px;
+    }
+    .task-one {
+        padding-left: 15px;
+        padding-right: 0;
+    }
+    .task-two {
+        padding-left: 80px;
+    }
+    .task-one .task-text {
+        font-size: 18px;
+        line-height: 22px;
+        max-width: 279px;
+        padding-left: 15px;
+    }
+    .task-two .task-text {
+        font-size: 18px;
+        line-height: 22px;
+        max-width: 279px;
+        padding-left: 15px;
+    }
+    .wr-product {
+        width: 920px;
+    } 
+    .wr-connection {
+        width: 920px;
+    }
+    .wr-connection picture {
+        opacity: 0;
+        visibility: hidden;
+    }
+    
+    
+}
+@media screen and (max-width:991px) {
+    .wr-intro {
+        width: 720px;
+    }
+    .wr-intro h1 {
+        font-size: 48px;
+        margin-left: 30px;
+    }
+    .wr-intro .block-button {
+        bottom: 25px;
+    }
+    .wr-intro .block-button a {
+        letter-spacing: 1px;
+        padding: 15px 10px;
+    }
+    .wr-intro .pages {
+       font-size: 12px;
+       padding-top: 30px;
+       opacity: 0;
+       visibility: hidden;
+    }
+    .wr-about {
+        width: 720px;
+        height: 100%;
+        margin:  0px;
+        margin-top: 70px;
+    }
+    .wr-about .wrapper {
+        margin: 0 auto;
+        flex-wrap: wrap;
+        background-color: #fbfbfb;
+    }
+    .picture-one {
+        margin: 0 auto;
+    }
+    .picture-one .img-one {
+       padding-top: 15px;
+    }
+    .picture-one .img-two {
+        margin-bottom: 65px;
+        margin-left: 40px;
+    }
+    .picture-two .img-two {
+        padding-top: 20px;
+        padding-left: 230px;
+    }
+    .about-us {
+        text-align: center;
+        padding-left: 0px;
+    }
+    .about-us h2 {
+        font-size: 64px;
+        padding-top: 20px;
+    }
+    .wr-about .block-button {
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .wr-tasks {
+        width: 720px;
+        margin: 0;
+    }
+    .wr-tasks .task {
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+    .wr-tasks .caption {
+        margin-left: 160px;
+        white-space: normal;
+    }
+    .wr-tasks .task-two {
+        margin-right: 15px;
+        margin-top: 20px;
+    }
+    .wr-product {
+        width: 720px;
+    }
+    .wr-product .img-block {
+        flex-wrap: wrap;
+    }
+    .wr-product .title-block {
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .wr-product .img {
+        margin-top: 20px;
+    }
+    .wr-product .img-block {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 0;
+    }
+    .wr-product .shadow {
+        margin-top: 20px;
+    }
+    .wr-product .block-button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .wr-product .caption {
+        margin-left: 160px;
+        white-space: normal;
+    }
+    .wr-connection {
+        width: 720px;
+    }
+    .wr-connection .wrapper {
+        flex-wrap: wrap;
+    }
+    .wr-connection .container {
+        margin: 0 auto;
+    }
+    
+
+}
+@media screen and (max-width:767px) {
+    .wr-intro {
+        width: 540px;
+    }
+    .wr-intro .wrapper {
+        flex-wrap: wrap;
+    }
+    .wr-intro  .text {
+        margin: 0 auto;
+        margin-top: 30px;
+        max-height: 120px;
+    }
+    .wr-intro  .text h1 {
+        padding-top: 0
+    }
+    .wr-intro  .button {
+        margin-top: 30px;
+    }
+    .wr-intro  .img-block {
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+    .wr-intro .button {
+        opacity: 0;
+        visibility: hidden;
+    }
+    .wr-intro  .block-button {
+         top:352px;
+    }
+    .wr-intro  .block-button a {
+        padding: 30px 15px;
+    }
+    .wr-about {
+        width: 540px;
+        margin-top: 70px;
+    }
+    .picture-one .img-one {
+       margin-top: 30px;
+       margin-left: 60px;
+    }
+    .picture-one .img-two {
+        margin: 0;
+        margin-left: 60px;
+    }
+    .picture-two .img-two {
+        margin-top: 30px;
+        margin-left: 110px;
+        padding: 0;
+    }
+    .wr-tasks {
+        width: 540px;
+        margin-top: 120px;
+    }
+    .wr-about .about-us {
+        padding-left: 0px;
+    }
+    .wr-tasks .caption {
+        margin-left: 80px;
+    }
+    .wr-tasks .task {
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+    .wr-product {
+        width: 540px;
+        margin-top: 120px;
+    }
+    .wr-product .wrapper {
+        margin: 0 auto;
+    }
+    .wr-product .title-block {
+        justify-content: center;
+        align-items: center;
+    }
+    .text-block {
+        margin-right: 15px;
+    }
+    .text-block p {
+        font-size: 42px;
+        padding: 35px;
+    }
+    .text-block a {
+        padding: 0 40px 0;
+        margin-bottom: 15px;
+    }
+    .wr-connection {
+        widows: 540px;
+    }
+    
+}
+@media screen and (max-width:575px) {
+    .wr-intro {
+        width: 100%;
+        padding: 0 15px;
+    }
+    .wr-about {
+        width: 100%;
+        padding: 0 15px;
+    }
+    .wr-about .wrapper {
+        margin: 0 auto;  
+    }
+    .wr-about .picture-one {
+        padding: 0;
+    }
+    .picture-one .img-one {
+        padding-top: 30px;
+        margin: 0;
+     }
+     .picture-one .img-two {
+         margin: 0;
+     }
+     .picture-two .img-two {
+         padding-top: 30px;
+         margin: 0
+     }
+     .about-us h1 {
+         padding-right: 10px;
+     }
+     .wr-tasks {
+        width: 100%;
+        padding: 0 15px;
+     }
+     .wr-tasks .caption {
+         margin-left: 40px;
+         font-size: 40px;
+    }
+     .wr-tasks .task {
+        font-size: 14px;
+        line-height: 18px;
+        max-width: 279px;
+        padding-left: 15px;
+     }
+     .wr-tasks .task-one {
+         flex-wrap: wrap;
+         margin-right: 10px;
+         word-wrap: break-word;
+    }
+    .wr-tasks .task-one img {
+        float: left;
+        margin: 0 15px 10px 0;
+    }
+     .wr-tasks .task-two {
+         flex-wrap: wrap;
+         margin-right: 10px;
+    }
+    .wr-product {
+        width: 100%;
+        padding: 0 15px;
+    }
+    .wr-product .text-block {
+        font-size: 42px;
+        width: 400px;
+    }
+    .wr-product .text-block p {
+        font-size: 42pz;
+    }
+    .wr-product .caption {
+        margin-left: 0;
+        white-space: normal;
+    }
+    .wr-connection {
+        width: 100%;
+        padding: 0 15px;
+    }
+    .wr-connection .caption {
+        font-size: 46px;
+        letter-spacing: 1px;
+        word-wrap: break-word;
+        margin-left: 0;
+        white-space: normal;
+        max-width: 319px;
+    }
+    .item {
+        min-width: 250px;
+    }
+     
 }

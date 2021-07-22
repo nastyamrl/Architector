@@ -26,13 +26,13 @@
    
 }
 .wrapper .container {
-    background-color: #FBFBFB;
+    background-color: #fbfbfb;
     display: flex;
     justify-content: space-between;
 }
 .wr-projects h1 {
     width: 100%;
-    border-bottom: 1px solid #F2F2F2;
+    border-bottom: 1px solid #f2f2f2;
     padding-bottom: 30px;
     margin: 0;
 }
@@ -42,14 +42,14 @@
     padding-left: 30px;
 }
 .project h2 {
-    font-weight: 300;
+    font-family: "TT-Light" , sans-serif;
     font-size: 40px;
     line-height: 49,8px;
-    color: #BDBDBD;
+    color: #bdbdbd;
     margin: 0;
 }
 .project p {
-    font-weight: 300;
+    font-family: "TT-Light" , sans-serif;
     font-size: 16px;
     line-height: 25px;
     padding-top: 20px;
@@ -61,12 +61,97 @@
     padding-top: 64px;
 }
 .block-button a{
-     color: #333;
-     border: 2px solid #fff;
-     background-color: #fff;
+    color: #333;
+    border: 2px solid #fff;
+    background-color: #fff;
  }
 .indicates  {
     display: flex;
     justify-content: flex-start;
     align-items: center;
+}
+
+/*adapt*/
+@media screen and (max-width:1200px) {
+    .wr-projects {
+        width: 1140px;
+    }
+    .wrapper {
+        margin: 0;;
+    }
+    .container {
+        width: auto;
+        position: relative;
+    }
+    .project h2 {
+        font-size: 30px;
+        word-break: break-all;
+    }
+    .project p {
+        font-size: 14px;
+        overflow: hidden;
+        text-overflow:ellipsis;
+        white-space: inherit;
+    }
+    .block-button  {
+      margin-bottom: 30px;
+       padding-top: 30px;
+    }
+    .block-button a {
+        font-size: 10px;
+        letter-spacing: 1px;
+        line-height: 10px;
+        padding: 20px 30px;
+    }
+}
+@media screen and (max-width:1199px) {
+    .wrapper {
+        width: 960px;
+    }
+}
+@media screen and (max-width:991px) {
+    .wrapper {
+        width: 720px;
+    }
+    .container {
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .picture {
+        margin: auto;
+        margin-top: 10px;
+    }
+    .block-button  {
+        margin-bottom: 30px;
+        padding-top: 30px;
+     }
+     .indicates {
+         justify-content: center;
+         align-items: center;
+     }
+}
+@media screen and (max-width:767px) {
+    .wrapper {
+        width: 540px;
+    }
+}
+@media screen and (max-width:575px) {
+    .wrapper {
+        width: 100%;
+        padding: 0 15px;
+    }
+    .project {
+        text-align: center;
+    }
+    .project p{
+        padding-right: 25px;
+    }
+    .picture {
+        padding-top: 15px;
+    }
+    .block-button {
+        justify-content: center;
+        align-items: center;
+    }
+
 }

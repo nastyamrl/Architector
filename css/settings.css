@@ -1,15 +1,6 @@
 a {
     text-decoration: none;
 }
-button {
-    font-size: 12px;
-    text-align: center;
-    width: 222px;
-    height: 71px;
-    background-color: transparent;
-    padding: 0;
-    border: none;
-}
 body {
     height: 100%;
     font-family: "TT-Regular", sans-serif;
@@ -25,21 +16,7 @@ body {
     padding-right: 15px;
     box-sizing: border-box;
 }
-@media (max-width:1200px ) {
-    .wrapper {
-        max-width: 970px;
-    }
-}
-@media (max-width:992px ) {
-    .wrapper {
-        max-width: 750px;
-    }
-}
-@media (max-width:767px ) {
-    .wrappere {
-        max-width: none;
-    }
-}
+
 
 
 /*header*/
@@ -81,35 +58,35 @@ body {
   /*common style*/
 
 .caption {
+    font-family: "TT-Light" , sans-serif;
     font-size: 64px;
-line-height: 64px;
-color: #bdbdbd;
-padding-right: 400px;
+    line-height: 64px;
+    color: #bdbdbd;
+    padding-right: 400px;
 }
 
 .wrapper h1 {
-    font-family: "TT-Bold";
-        font-size: 64px;
-        color: #333;
-        line-height: 64px;
-        font-weight: 700;
-        text-transform: uppercase;
-        white-space: pre-line;
-        margin: 0;
-    }
+    font-family: "TT-Bold", sans-serif;
+    font-size: 64px;
+    color: #333;
+    line-height: 64px;
+    font-weight: 700;
+    text-transform: uppercase;
+    white-space: pre-line;
+    margin: 0;
+}
 .wrapper h1:first-line {
-        font-family: "TT-Regular";
-        font-weight: 300;
-        color: #bdbdbd;
-        padding-bottom: 22px;
-    }
+    font-family: "TT-Regular";
+    font-weight: 300;
+    color: #bdbdbd;
+    padding-bottom: 22px;
+}
     
 
 /*indicators (projects/gallert/sertificates)*/
 
 
 .indicates  {
-    
     padding-top: 75px;
 }
 .indicates .button{
@@ -118,14 +95,10 @@ padding-right: 400px;
 .button button {
     width: 53px;
     height: 53px;
-    
-}
-
-.button button:nth-child(1) {
-     border: 1px solid #f2f2f2; 
+    border: 1px solid #f2f2f2;
+    background-color: #fff;
 }
 .button button:nth-child(2) {
-    border: 1px solid #f2f2f2;
     margin-left: 23px;
 }
 .button button:hover {
@@ -143,131 +116,33 @@ padding-right: 400px;
 .pages img {
     margin: 0 32px;
 }
+.pages p:nth-child(1) {
+    color: #333;
+}
     
     /*button*/
 
 
 .block-button {
-        display: flex;
-        justify-content: flex-start;
+    display: flex;
+    justify-content: flex-start;
 }
 .block-button a {
-        font-size: 12px;
-        line-height: 12px;
-        letter-spacing: 3px;
-        padding: 30px 50px;
-        text-transform: uppercase;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        cursor: pointer;
+    font-size: 12px;
+    line-height: 12px;
+    letter-spacing: 3px;
+    padding: 30px 50px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
 }
  .block-button img{
-        padding-left: 15px;
+    padding-left: 15px;
 }
 
-
-
-/*footer*/
-
-footer  {
-    background-color: #333;
-    min-height: 417px;
-    min-width: 100vw;
-    display: flex;
-    flex-direction: column;
-    margin-top: 120px;
-}
-footer .wrapper {
-    display: flex;
-    justify-content: space-between;
-    margin: 58px;
-    padding: 0;
-}
-footer h2 {
-    font-family: "TT-Bold";
-    color: #fff;
-    font-size: 16px;
-    line-height: 20px;
-    margin: 0;
-}
-footer .logotype {
-    width: 145px;
-    height: 94px;
-}
-footer .info-block {
-    display: flex;
-    flex-direction: column;
-    margin-left: 100px;
-}
-footer a {
-    color: #fff;
-    font-size: 14px;
-    line-height: 24px;
-    letter-spacing: 3%;
-    font-weight: 500;
-    margin: 0;
-}
-footer .info-block a {
-    margin-top: 16px;
-}
-footer .info-block a:nth-child(1) {
-    margin-top: 25px;
-}
-footer .contact-block {
-    display: flex;
-    flex-direction: column;
-    margin-left: 157px;
-}
-footer .contact-block p {
-    color: #fff;
-    font-size: 14px;
-    line-height: 24px;
-    letter-spacing: 3%;
-    font-weight: 500;
-    margin-left: 19px;
-}
- footer .block {
-    display: flex;
-    flex-direction: row;
-    margin-top: 32px;
-}
-footer .block:nth-child(2) p {
-    white-space: pre-line;
-}
-footer .block a {
-    margin-left: 19px;
-}
-footer .block:nth-child(2) {
-    margin-top: 25px;
-}
-footer .net-block {
-    margin-left: 140px;
-}
-footer .net-icons{
-    display: flex;
-    flex-direction: row;
-    padding-top: 23px;
-}
-footer .net-icons a {
-    margin-left: 40px;
-}
-footer .net-icons a:nth-child(1) {
-    margin: 0;
-}
-footer .copyright {
-    padding-bottom: 20px;
-}
-footer .copyright p{
-    font-size: 12px;
-    color: #c8c8c8;
-    text-align: center;
-    border-top: 1px solid #fff;
-    opacity: 0.1;
-    margin: 0;
-    padding-top: 20px;
-}
-/*forms*/
+      /*forms*/
 
 .item {
     color: #8D8D8D;
@@ -348,3 +223,106 @@ textarea {
     margin-top: 21px;
 }
 
+
+
+/*footer*/
+
+footer  {
+    background-color: #333;
+    min-height: 417px;
+    min-width: 100vw;
+    display: flex;
+    flex-direction: column;
+    margin-top: 120px;
+}
+footer .wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin: 58px;
+    padding: 0;
+}
+footer h2 {
+    font-family: "TT-Bold" , sans-serif;
+    color: #fff;
+    font-size: 16px;
+    line-height: 20px;
+    margin: 0;
+}
+footer .logotype {
+    width: 145px;
+    height: 94px;
+}
+footer .info-block {
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+}
+footer a {
+    font-family: "TT-Medium" , sans-serif;
+    color: #fff;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 3%;
+    font-weight: 500;
+    margin: 0;
+}
+footer .info-block a {
+    margin-top: 16px;
+}
+footer .info-block a:nth-child(1) {
+    margin-top: 25px;
+}
+footer .contact-block {
+    display: flex;
+    flex-direction: column;
+    margin-left: 157px;
+}
+footer .contact-block p {
+    font-family: "TT-Medium" , sans-serif;
+    color: #fff;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 3%;
+    font-weight: 500;
+    margin-left: 19px;
+}
+ footer .block {
+    display: flex;
+    flex-direction: row;
+    margin-top: 32px;
+}
+footer .block:nth-child(2) p {
+    white-space: pre-line;
+}
+footer .block a {
+    margin-left: 19px;
+}
+footer .block:nth-child(2) {
+    margin-top: 25px;
+}
+footer .net-block {
+    margin-left: 140px;
+}
+footer .net-icons{
+    display: flex;
+    flex-direction: row;
+    padding-top: 23px;
+}
+footer .net-icons a {
+    margin-left: 40px;
+}
+footer .net-icons a:nth-child(1) {
+    margin: 0;
+}
+footer .copyright {
+    padding-bottom: 20px;
+}
+footer .copyright p{
+    font-size: 12px;
+    color: #c8c8c8;
+    text-align: center;
+    border-top: 1px solid #fff;
+    opacity: 0.1;
+    margin: 0;
+    padding-top: 20px;
+}

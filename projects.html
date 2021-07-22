@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css"  />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css"  />
   <link rel="stylesheet" href="./css/projects.css">
@@ -45,11 +45,16 @@
 Проекты </h1>
 <div class="container">
   <div class="picture">
-    <img src="./media/projects1.jpeg" alt="img">
+    <picture>
+      <source media="(min-width: 767px)" srcset="./media/projects1.jpeg">
+      <source media="(min-width: 325px)" srcset="./media/projects1-075.jpg">
+      
+     <img src="./media/projects1.jpeg" alt="img">
+    </picture>
   </div>
   <div class="project">
     <h2>Общеобразовательная школа</h2>
- <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum porro voluptates voluptate autem magnam, ullam corporis recusandae quidem reiciendis dolor, quae enim eius? Laboriosam eligendi, qui corrupti molestiae minima itaque. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unkno</p>
+ <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum porro voluptates voluptate autem magnam, ullam corporis recusandae quidem reiciendis dolor, quae enim eius?</p>
  <div class="block-button">
   <a class="block" href="project1.html"> Смотреть
     <img src="./media/icons/arrowright.svg" alt="icon">
@@ -59,7 +64,12 @@
 </div>
 <div class="container">
   <div class="picture">
-    <img src="./media/projects2.jpeg" alt="img">
+    <picture>
+      <source media="(min-width: 767px)" srcset="./media/projects2.jpeg">
+      <source media="(min-width: 325px)" srcset="./media/projects2-075.jpg">
+      
+     <img src="./media/projects2.jpeg" alt="img">
+    </picture>
   </div>
   <div class="project">
     <h2>Паркинг на 500 автомобилей</h2>
@@ -73,7 +83,12 @@
 </div>
 <div class="container">
   <div class="picture">
-    <img src="./media/projects3.jpeg" alt="img">
+    <picture>
+      <source media="(min-width: 767px)" srcset="./media/projects3.jpeg">
+      <source media="(min-width: 325px)" srcset="./media/projects3-075.jpg">
+      
+     <img src="./media/projects3.jpeg" alt="img">
+    </picture>
   </div>
   <div class="project">
     <h2>Проект интерьера офиса</h2>

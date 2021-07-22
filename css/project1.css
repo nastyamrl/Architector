@@ -28,10 +28,36 @@
     flex-direction: row;
     padding-top: 30px;
     height: auto;
+   
 }
 .block p {
     font-size: 16px;
     line-height: 25px;
     padding-left: 30px;
     margin: 0;
+}
+.block img {
+    float: left;
+    margin: 0 15px 10px 0;
+}
+
+/*adapt*/
+@media screen and (max-width:1200px) {
+    .wr-project {
+        width: 1140px;
+    }
+}
+@media screen and (max-width:991px) {
+    .wr-project {
+        width: 720px;
+    }
+    .wrapper {
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width:575px) {
+    .wr-project {
+        width: 100%;
+        padding: 0 15px;
+    }
 }
