@@ -55,6 +55,22 @@ body {
     border-top: 1px solid #333;
     border-bottom: 1px solid #333;
 }
+.menu-open {
+    background: none;
+    border: none;
+    display: none;
+}
+.nav button:focus {
+    outline: none;
+}
+
+.header .show-menu {
+    display: none;
+}
+.show-menu li {
+    border: none;
+    margin-top: 10px;
+}
   /*common style*/
 
 .caption {

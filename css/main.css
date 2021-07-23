@@ -376,19 +376,49 @@
         padding-left: 15px;
     }
     .wr-product {
-        width: 920px;
+        width: 960px;
     } 
     .wr-connection {
-        width: 920px;
+        width: 960px;
     }
     .wr-connection picture {
         opacity: 0;
         visibility: hidden;
     }
-    
+    footer {
+        width: 960px;
+    }
+    footer .wrapper {
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    footer .info-block {
+        margin: 30px auto;
+        justify-content: center;
+        align-items: center;
+     }
+    footer .info-block h2 {
+        text-align: center;
+    }
+    footer .contact-block {
+        margin: 30px auto;
+        justify-content: center;
+        align-items: center;
+    }
+    footer .net-block {
+        margin: 30px auto;
+        justify-content: center;
+        align-items: center;
+    }
+
     
 }
 @media screen and (max-width:991px) {
+    .header {
+        width: 720px;
+    }
     .wr-intro {
         width: 720px;
     }
@@ -510,10 +540,31 @@
     .wr-connection .container {
         margin: 0 auto;
     }
+    footer {
+        width: 720px;
+    }
     
 
 }
 @media screen and (max-width:767px) {
+    .header {
+        width: 540px;
+    }
+    .header .list {
+        display: none;
+    }
+    .menu-open {
+        display: block;
+    }
+    .header .show-menu {
+        display: block;
+        position: absolute;
+        background: rgba(0,0,0,0.4);
+        left: 0;
+        top: 0;
+        width: 50%;
+        padding-left: 70px;
+    }
     .wr-intro {
         width: 540px;
     }
@@ -604,9 +655,16 @@
     .wr-connection {
         widows: 540px;
     }
+    footer {
+        width: 540px;
+    }
     
 }
 @media screen and (max-width:575px) {
+    .header {
+        width: 100%;
+        padding: 0 15px;
+    }
     .wr-intro {
         width: 100%;
         padding: 0 15px;
@@ -691,6 +749,10 @@
     }
     .item {
         min-width: 250px;
+    }
+    footer {
+        width: 100%;
+        padding: 0 15px;
     }
      
 }
